@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#createIndex should create a simple index 1`] = `
+Object {
+  "Bac": Array [
+    "Bca",
+  ],
+  "aaagmnr": Array [
+    "anagram",
+    "nagaram",
+  ],
+  "abc": Array [
+    "abc",
+    "bca",
+  ],
+  "deo": Array [
+    "edo",
+    "doe",
+  ],
+}
+`;
+
+exports[`#match should be case insensitive 1`] = `
+Array [
+  "edo",
+  "doe",
+]
+`;
+
+exports[`#match should find items that are indexed 1`] = `
+Array [
+  "edo",
+  "doe",
+]
+`;

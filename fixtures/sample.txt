@@ -1,0 +1,7 @@
+anagram
+nagaram
+edo
+doe
+abc
+bca
+Bca
